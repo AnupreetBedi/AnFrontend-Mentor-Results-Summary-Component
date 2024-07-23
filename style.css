@@ -170,7 +170,8 @@ html {
           flex-direction: column;
           position: relative;
           top: 9rem;
-          right: 2.5rem;
+          /* right: 2.5rem; */
+          width: 100%;
       }
   
       .main-result {
@@ -180,6 +181,10 @@ html {
       }
   
       .comments {
-          margin-left: 2.5rem;
+          margin: auto;
         }
+
+         .breakup {
+          width: 100%;
+  }
   }
